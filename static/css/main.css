@@ -1,0 +1,325 @@
+html {
+  font-size: 16px;
+  font-family: "M PLUS 1", sans-serif;
+  line-height: 1.5;
+  font-weight: 200;
+  color: #1B365C;
+}
+
+#pre_school header .first_view {
+  background: url(../img/group-photo-after-game.JPG);
+  background-size: cover;
+  position: relative;
+}
+
+#pre_school header .first_view .key_visual {
+  position: absolute;
+  height: 835.84px;
+  left: 0%;
+  right: 0.14%;
+  top: 0px;
+}
+
+#pre_school header .first_view .catch {
+  position: absolute;
+  height: 12%;
+  width: 100%;
+  bottom: 100px;
+  margin: 0;
+  background: rgba(27, 54, 92, 0.7);
+  color: #1B365C;
+}
+
+#pre_school header .first_view .catch p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -ms-flex-direction: row;
+  -ms-flex-pack: justify;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  position: absolute;
+  height: 80px;
+  left: calc(50% - 110px);
+  color: white;
+}
+
+#pre_school main {
+  height: 2000px;
+}
+
+#pre_school main section.detail_sub.detail_sub2 {
+  top: 106px;
+}
+
+#pre_school main section.detail_sub.detail_sub3 {
+  top: 188px;
+}
+
+#pre_school main a.cta {
+  left: calc(50% - 107px);
+}
+
+#pre_school main a.cta .detail_1 {
+  top: 249px;
+}
+
+#about header .first_view {
+  background: url(../img/smiling-general-coach.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+#about header .first_view .catch {
+  position: absolute;
+  height: 12%;
+  width: 100%;
+  bottom: 100px;
+  margin: 0;
+  background: rgba(27, 54, 92, 0.7);
+  color: #1B365C;
+}
+
+#about header .first_view .catch p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -ms-flex-direction: row;
+  -ms-flex-pack: justify;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  position: absolute;
+  height: 80px;
+  left: calc(50% - 110px);
+  color: white;
+}
+
+#about main {
+  height: 2000px;
+}
+
+#about main section.detail_1 {
+  height: 1000px;
+}
+
+#about main section.detail_sub.detail_sub2 {
+  top: 200px;
+}
+
+#about main section.detail_sub.detail_sub3 {
+  top: 500px;
+}
+
+#about main a.cta.detail_1 {
+  top: 249px;
+}
+
+#top header .first_view {
+  background: url(../img/soccer-ball-on-ground-under-the-clear-blue-sky.JPG);
+  background-size: cover;
+}
+
+#top header .first_view img.logo {
+  position: absolute;
+  text-align: center;
+  left: calc(50% - 480px/2 - 1px);
+  top: 68px;
+  mix-blend-mode: overlay;
+}
+
+#top header .first_view .catch {
+  font-family: "M PLUS 1", sans-serif;
+  position: absolute;
+  width: 328px;
+  height: 104px;
+  left: calc(50% - 328px/2 - 1px);
+  top: 254px;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+#top header .first_view a.cta {
+  position: absolute;
+  padding: 10px 35px;
+  left: calc(50% - 134px/2 - 1px);
+  top: 458px;
+  background: #E389AF;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+}
+
+#top header .first_view menu {
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  left: 0px;
+  top: 567px;
+  margin: 0;
+  background: rgba(255, 255, 255, 0.8);
+  color: #1B365C;
+}
+
+#top header .first_view menu .inner_frame {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  width: 35%;
+  height: 80px;
+  left: calc(50% - 35%/2 - 1px);
+}
+
+#top main {
+  height: 1100px;
+}
+
+#top main section.detail.detail_1 a.cta {
+  position: absolute;
+  top: 234px;
+}
+
+#top main section.detail.detail_2 section.detail_sub.detail_sub1 a.cta {
+  position: absolute;
+  top: 104px;
+}
+
+#top main section.detail.detail_2 section.detail_sub.detail_sub2 {
+  top: 228px;
+}
+
+#top main section.detail.detail_2 section.detail_sub.detail_sub2 a.cta {
+  position: absolute;
+  top: 82px;
+}
+
+header .first_view {
+  width: 100%;
+  height: 647px;
+  text-align: center;
+}
+
+main {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+main a.cta {
+  padding: 10px 35px;
+  background: #89D5E3;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+  position: absolute;
+}
+
+main .detail {
+  margin-top: 72px;
+  position: relative;
+}
+
+main .detail .headline {
+  width: 47%;
+}
+
+main .detail .headline h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+main .detail .headline .decoration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+main .detail .headline .decoration hr {
+  background-color: #89D5E3;
+  border: 1px solid #89D5E3;
+  width: 100%;
+}
+
+main .detail .headline .decoration span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: right;
+  color: #89D5E3;
+  font-size: 24px;
+}
+
+main .detail .description {
+  margin-top: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+main .detail .description .side_description {
+  width: 47%;
+  position: relative;
+}
+
+main .detail .description .side_description > section.detail_sub {
+  position: absolute;
+}
+
+main .detail .description .side_description > section.detail_sub .detail_sub_description {
+  margin-bottom: 16px;
+}
+
+main .detail .description .side_description > section.detail_sub h3 {
+  font-weight: bold;
+}
+
+main .detail .description img {
+  margin-left: 6%;
+  width: 47%;
+  border-radius: 10px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+main .detail p.detail_sub.summary {
+  margin-bottom: 20px;
+}
+
+main .detail a.cta {
+  left: 10%;
+}
+
+body {
+  position: relative;
+}
+
+body footer {
+  position: absolute;
+  bottom: 0;
+}
+/*# sourceMappingURL=main.css.map */

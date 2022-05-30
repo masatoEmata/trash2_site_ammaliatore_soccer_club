@@ -1,0 +1,319 @@
+$font_size_pc_big: 24px;
+$font_size_pc_middle: 16px;
+$font_size_pc_small: 8px;
+$font_family: 'M PLUS 1',sans-serif;
+$line_hight: 1.5;
+$view_height: 647px;
+$font_weight_normal: 200;
+$font_weight_bold: 500;
+
+$thema_color_navy: #1B365C;
+$thema_color_pink: #E389AF;
+$thema_color_blue: #89D5E3;
+$thema_color_navy_transparent: rgba(27, 54, 92, 0.7);
+$thema_cloor_white_transparent: rgba(255, 255, 255, 0.8);
+
+$detail_margin_top: 72px;
+$main_wrapper_margin: 5%;
+$detail_description_width: 47%;
+$detail_description_and_img_gap: 6%;
+
+$descriptions_margin_top: 32px;
+
+$img_radius: 10px;
+
+html {
+  font-size: $font_size_pc_middle;
+  font-family: $font_family;
+  line-height: $line_hight;
+  font-weight: $font_weight_normal;
+  color: #1B365C;
+}
+#pre_school {
+  header {
+    .first_view {
+      background: url(../img/group-photo-after-game.JPG);
+      background-size: cover;
+      position: relative;
+
+      .key_visual {
+        position: absolute;
+        height: 835.84px;
+        left: 0%;
+        right: 0.14%;
+        top: 0px;
+      }
+
+      .catch {
+        position: absolute;
+        height: 12%;
+        width: 100%;
+        bottom: 100px;
+        margin: 0;
+        background: $thema_color_navy_transparent;
+        color: #1B365C;
+
+        p {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          -ms-flex-direction: row;
+          -ms-flex-pack: justify;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          position: absolute;
+          height: 80px;
+          left: calc(50% - 110px);
+          color: white;
+        }
+      }
+    }
+  }
+
+  main {
+    // TODO： 作業用の余白を作った。要修正
+    height: 2000px;
+
+    // section.detail_1 {
+    //   height: 
+    // }
+
+    section.detail_sub.detail_sub2 {
+      top: 106px;
+    }
+
+    section.detail_sub.detail_sub3 {
+      top: 188px;
+    }
+
+    a.cta {
+      left: calc(50% - 107px);
+      .detail_1 {
+        top: 249px;
+      }
+    }
+  }
+}
+#about {
+  header {
+    .first_view {
+      background: url(../img/smiling-general-coach.jpg);
+      background-size: cover;
+      position: relative;
+      .catch {
+        position: absolute;
+        height: 12%;
+        width: 100%;
+        bottom: 100px;
+        margin: 0;
+        background: $thema_color_navy_transparent;
+        color: #1B365C;
+        p {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          -ms-flex-direction: row;
+          -ms-flex-pack: justify;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          position: absolute;
+          height: 80px;
+          left: calc(50% - 110px);
+          color: white;
+        }
+      }
+    }
+  }
+  main {
+    // TODO： 作業用の余白を作った。要修正
+    height: 2000px;
+    section.detail_1 {
+      // TODO： 作業用の余白を作った。要修正
+      height: 1000px; 
+    }
+    section.detail_sub.detail_sub2 {
+      top: 200px;
+    }
+    section.detail_sub.detail_sub3 {
+      top: 500px;
+    }
+    a.cta.detail_1 {
+      top: 249px;
+    }
+  }
+}
+#top {
+  header {
+    .first_view {
+      background: url(../img/soccer-ball-on-ground-under-the-clear-blue-sky.JPG);
+      background-size: cover;
+      img.logo {
+        position: absolute;
+        text-align: center;
+        left: calc(50% - 480px/2 - 1px);
+        top: 68px;
+        mix-blend-mode: overlay;
+      }
+      .catch {
+        font-family: $font_family;
+        position: absolute;
+        width: 328px;
+        height: 104px;
+        left: calc(50% - 328px/2 - 1px);
+        top: 254px;
+        font-size: $font_size_pc_big;
+        line-height: $line_hight;
+        color: #FFFFFF;
+        font-weight: bold;
+      }
+      a.cta {
+        position: absolute;
+        padding: 10px 35px;;
+        left: calc(50% - 134px/2 - 1px);
+        top: 458px;
+        background: $thema_color_pink;
+        border-radius: 10px;
+        text-align: center;
+        font-size: $font_size_pc_middle;
+        line-height: $line_hight;
+        color: white;
+      }
+      menu {
+        position: absolute;
+        height: 80px;
+        width: 100%;
+        left: 0px;
+        top: 567px;
+        margin: 0;
+        background: $thema_cloor_white_transparent;
+        color: #1B365C;
+        .inner_frame {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          position: absolute;
+          width: 35%;
+          height: 80px;
+          left: calc(50% - 35%/2 - 1px);
+        }
+      }
+    }
+  }
+  main {
+    height: 1100px;
+    section.detail.detail_1 {
+      a.cta {
+        position: absolute;
+        top: 234px;
+      }
+    }
+    section.detail.detail_2 {
+      section.detail_sub.detail_sub1 {
+        a.cta {
+          position: absolute;
+          top: 104px;
+        }
+      }
+      section.detail_sub.detail_sub2 {
+        top: 228px;
+        a.cta {
+          position: absolute;
+          top: 82px;
+        }
+      }
+    }
+  }
+}
+header {
+  .first_view {
+    width: 100%;
+    height: $view_height;
+    text-align: center;
+  }
+}
+main {
+  margin-left: $main_wrapper_margin;
+  margin-right: $main_wrapper_margin;
+  a.cta {
+      padding: 10px 35px;
+      background: $thema_color_blue;
+      border-radius: 10px;
+      text-align: center;
+      font-size: $font_size_pc_middle;
+      line-height: $line_hight;
+      color: white;
+      position: absolute;
+  }
+  .detail {
+    margin-top: $detail_margin_top;
+    position: relative;
+    .headline {
+      width: $detail_description_width;
+      h2 {
+        font-size: $font_size_pc_big;
+        font-weight: bold;
+      }
+      .decoration {
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        hr {
+          background-color: $thema_color_blue;
+          border: 1px solid $thema_color_blue;
+          width: 100%;
+        }
+        span {
+          display: flex;
+          align-items: center;
+          text-align: right;
+          color: $thema_color_blue;
+          font-size: $font_size_pc_big;
+        }
+      }
+
+    }
+    .description {
+      margin-top: $descriptions_margin_top;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      .side_description {
+        width: $detail_description_width;
+        position: relative;
+        >section.detail_sub {
+          // margin-top: $descriptions_margin_top;
+          position: absolute;
+          .detail_sub_description {
+            margin-bottom: 16px;
+          }
+        h3 {
+            font-weight: bold;
+          }
+        }
+      }
+      img {
+        margin-left: $detail_description_and_img_gap;
+        width: $detail_description_width;
+        border-radius: $img_radius;
+        height: fit-content;
+      }
+    }
+    p.detail_sub.summary {
+      margin-bottom: 20px;
+    }
+    a.cta {
+      left: 10%;
+    }
+  }
+
+}
+body {
+  position: relative;
+  footer {
+    position: absolute;
+    bottom: 0
+  }
+}
